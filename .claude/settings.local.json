@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b)",
+      "Bash(cat:*)",
+      "Bash(tree:*)",
+      "Bash(nuget install:*)",
+      "Bash(powershell -Command \"Install-Package GraphQL.Client -Version 6.0.0\")",
+      "Bash(dotnet --version:*)",
+      "Bash(msbuild:*)",
+      "Bash(dotnet build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
